@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash clone!</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="header-content">
+            <h1 class="logo">logo</h1>
+            <p class="sub-line">the best royalty free images you can find here.</p>
+
+            <form action="search.html">
+                <input type="text" autocomplete="off" name="search" class="search-box" placeholder="search images">
+                <button type="submit" class="search-btn">search</button>
+            </form>
+        </div>
+    </header>
+    <div class="image-popup">
+        <button class="close-btn"></button>
+        <a href="#" class="download-btn">download image</a>
+        <img src="img/img (1).png" class="large-img" alt="">
+        <button class="controls pre-btn">&#8810;</button>
+        <button class="controls nxt-btn">&#8811;</button>
+    </div>
+    <section class="gallery"></section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
